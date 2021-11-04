@@ -1,3 +1,42 @@
+// Присвоєння змінних
+
+var windows = 99; // numers
+let program = true; // boolean
+const future = '99'; // string
+
+// Перевірка типів даних
+
+console.log(typeof(program));
+console.log(typeof(future));
+
+// Оператори та умовні конструкції
+
+const x = windows == program ;
+const i = future === windows ;
+
+console.log(x);
+console.log(i);
+
+// Оператори присвоєння
+
+const vv = 15;
+const bb = 55;
+let mm = 100;
+
+//mm += bb;
+
+let zz = mm *=vv;
+
+console.log(zz)
+console.log(mm)
+
+const princ = 'Just have a ';
+const priss = 'smile';
+const goodDay = princ + priss + '! = )';
+
+console.log(goodDay);
+ 
+
 // add new variable
 // const hp = 'Head Packer'
 
@@ -13,10 +52,12 @@
 
 // console.log(sum);
 
+// Оператори порвняння
+
 
 // const MATH_PI = 3.14;
-// const radius = 10;
-// const name = "Robert";
+// const radius = 11;
+// const name = "James";
 
 // comparison
 // console.log(MATH_PI === 3.14);
@@ -24,8 +65,8 @@
 // console.log(name === "Steven");
 
 // numbers comparison
-// console.log(radius > 10);
-// console.log(radius >= 10);
+// console.log(radius > 11);
+// console.log(radius >= 11);
 // console.log(radius < 100);
 // console.log(radius !== 0);
 
@@ -35,7 +76,7 @@
 // ================================================================
 
 
-// const result = name === 'Robert'
+// const result = name === 'James'
 //         ? a*c
 //         : radius + radius;
 // console.log(result)
@@ -44,7 +85,7 @@
 
 const MATH_PI = 3.14;
 const r = 10;
-const name = "Robert";
+const name = "Anastasia";
 
 
 console.log(name !== "Steven");
@@ -111,4 +152,15 @@ switch (day) {
   default: {
       console.log("It is true");
   } 
-}
+};
+
+let mlg = 'Jack';
+switch (mlg) {
+   case 'Sindy' : surname = 'Besarab'; break;
+   case 'Jack'  : surname = 'Sparrow' ; break;
+   case 'Bogdan' : surname = 'Journey'
+};
+
+console.log(surname)
+
+
