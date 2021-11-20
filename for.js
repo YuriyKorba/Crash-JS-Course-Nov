@@ -90,7 +90,7 @@ const obj = {
   // in the loop we will find a sum of nums array items
   for (let key in obj) {
     str += obj[key] + "; ";
-    result.push(obj[key]); //  result.push(Number(obj[key])) - якщо число  вертається рядком то переробляємо в число. Nember.
+    result.push(obj[key]); //  result.push(Number(obj[key])) - якщо число  вертається рядком то переробляємо в число. Number.
   }
   
   const result2 = Object.values(obj);
